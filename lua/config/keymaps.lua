@@ -41,6 +41,11 @@ keymap.set("n", "<C-m>", "<C-i>", opts)
 -- Go to end of line
 keymap.set("n", ",", "$")
 
+-- Retour au dashboard avec <leader>h (home)
+vim.keymap.set("n", "<leader>h", function()
+	Snacks.dashboard()
+end, { desc = "Dashboard" })
+
 -- New tab
 keymap.set("n", "te", ":tabedit")
 keymap.set("n", "<tab>", ":tabnext<Return>", opts)

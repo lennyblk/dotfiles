@@ -1,0 +1,44 @@
+font-style = Regular
+font-size = 13
+font-thicken = true
+
+title=""
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+cursor-style = block
+cursor-style-blink = false
+
+shell-integration = fish
+shell-integration-features = no-cursor
+
+keybind = ctrl+d=new_split:down
+keybind = ctrl+z=close_surface
+keybind = ctrl+j=resize_split:down,10
+keybind = ctrl+k=resize_split:up,10
+
+keybind = cmd+d=decrease_font_size:1
+keybind = cmd+i=increase_font_size:1
+keybind = cmd+r=reset_font_size
+
+window-width = 120
+window-height = 45
+window-padding-x = 4
+
+confirm-close-surface = false
+clipboard-paste-protection = false
+unfocused-split-opacity = 1.0
+
+theme = Aura
+# background = #111111
+background = #000000
+foreground = #f2e5bc
+cursor-color = #a3611f
+
+selection-background = 1d3c3b
+selection-foreground = eeeeee
+
+palette = 4=#3D52E2
+palette = 12=#344CFF
+window-decoration = true
